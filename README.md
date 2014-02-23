@@ -76,3 +76,11 @@ It seems like it will be interesting to parse :)
     1.806 +/- 0.005 Ma:             -                  -               - Pleistocene
 0.01143 +/- 0.00013 Ma:             -                  -               - Holocene
 ```
+
+### Resources I will be returning to throughout the project
+
+http://raphaeljs.com
+http://robfig.github.io/revel/tutorial
+http://robfig.github.io/revel
+http://stackoverflow.com/questions/12923521/angular-js-custom-delimiter
+http://angularjs.org
