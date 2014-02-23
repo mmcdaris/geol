@@ -79,8 +79,8 @@ It seems like it will be interesting to parse :)
 
 ### Resources I will be returning to throughout the project
 
-http://raphaeljs.com
-http://robfig.github.io/revel/tutorial
-http://robfig.github.io/revel
-http://stackoverflow.com/questions/12923521/angular-js-custom-delimiter
-http://angularjs.org
+ - http://raphaeljs.com
+ - http://robfig.github.io/revel/tutorial
+ - http://robfig.github.io/revel
+ - http://stackoverflow.com/questions/12923521/angular-js-custom-delimiter
+ - http://angularjs.org
