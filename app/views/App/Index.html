@@ -1,11 +1,12 @@
-{{set . "title" "Home"}}
+{{set . "title" "GTS"}}
 {{template "header.html" .}}
 
-<header class="hero-unit" style="background-color:#A9F16C">
+<header class="navigation" style="background-color:#acadae">
+
   <div class="container">
     <div class="row">
       <div class="hero-text">
-        <h1>It works!</h1>
+        <h1>Geological Time Scale</h1>
         <p></p>
       </div>
     </div>
@@ -13,6 +14,10 @@
 </header>
 
 <div class="container">
+  <div class="">
+    <pre>{{template "timeline.txt" .}}</pre>
+  </div>
+
   <div class="row">
     <div class="span6">
       {{template "flash.html" .}}
