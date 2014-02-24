@@ -7,22 +7,21 @@
     <div class="row">
       <div class="hero-text">
         <h1>Geological Time Scale</h1>
-        <p>{{.greeting}}</p>
       </div>
     </div>
   </div>
 </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="span6">
-        {{template "flash.html" .}}
-      </div>
+<div class="container">
+  <div>
     </div>
-    <div class="">
-      <p>{{template "form.html" .}}</p>
-      <pre>{{template "timeline.txt" .}}</pre>
+      <p>{{.form_value}} has arrived</p>
+      <a href="/">Back to Index</a>
+    <div class="row">
+    <div class="span6">
+      {{template "flash.html" .}}
     </div>
   </div>
+</div>
 
 {{template "footer.html" .}}
