@@ -1,61 +1,61 @@
-
-4567.17:Hadean
-   3800:Archean     :Eoarchean
-   3600:            :Paleoarchean
-   3200:            :Mesoarchean
-   2800:            :Neoarchean
-   2500:Proterozoic :Paleoproterozoic :Siderian
-   2300:            :                 :Rhyacian
-   2050:            :                 :Orosirian
-   1800:            :                 :Statherian
-   1600:            :Mesoproterozoic  :Calymmian
-   1400:            :                 :Ectasian
-   1200:            :                 :Stenian
-   1000:            :Neoproterozoic   :Tonian
-    850:            :                 :Cryogenian
-    630:            :                 :Ediacaran
-    542:Phanerozoic :Paleozoic        :Cambrian      :Early Cambrian
-    513:            :                 :              :Middle Cambrian
-    501:            :                 :              :Late Cambrian
-  488.3:            :                 :Ordovician    :Early Ordovician
-  471.8:            :                 :              :Middle Ordovician
-  460.9:            :                 :              :Late Ordovician
-  443.7:            :                 :Silurian      :Early Silurian    :Llandovery
-  428.2:            :                 :              :                  :Wenlock
-  422.9:            :                 :              :Late Silurian     :Ludlow
-  418.7:            :                 :              :                  :Pridoli
-    416:            :                 :Devonian      :Early Devonian
-  397.5:            :                 :              :Middle Devonian
-  385.3:            :                 :              :Late Devonian
-  359.2:            :                 :Carboniferous :Mississippian     :Early Mississippian
-  345.3:            :                 :              :                  :Middle Mississippian
-  326.4:            :                 :              :                  :Late Mississippian
-  318.1:            :                 :              :Pennsylvanian     :Early Pennsylvanian
-  311.7:            :                 :              :                  :Middle Pennsylvanian
-    306:            :                 :              :                  :Late Pennsylvanian
-    299:            :                 :Permian       :Early Permian
-  270.6:            :                 :              :Middle Permian
-  260.4:            :                 :              :Late Permian
-    251:            :Mesozoic         :Triassic      :Early Triassic
-    245:            :                 :              :Middle Triassic
-    228:            :                 :              :Late Triassic
-  199.6:            :                 :Jurassic      :Early Jurassic
-  175.6:            :                 :              :Middle Jurassic
-  161.2:            :                 :              :Late Jurassic
-  145.5:            :                 :Cretaceous    :Early Cretaceous
-   99.6:            :                 :              :Late Cretaceous
-   65.5:            :Cenozoic         :Paleogene     :Paleocene         :Early Paleocene
-   61.7:            :                 :              :                  :Middle Paleocene
-   58.7:            :                 :              :                  :Late Paleocene
-   55.8:            :                 :              :Eocene            :Early Eocene
-   48.6:            :                 :              :                  :Middle Eocene
-   37.2:            :                 :              :                  :Late Eocene
-   33.9:            :                 :              :Oligocene         :Early Oligocene
-   28.4:            :                 :              :                  :Late Oligocene
-  23.03:            :                 :Neogene       :Miocene           :Early Miocene
-  15.97:            :                 :              :                  :Middle Miocene
- 11.608:            :                 :              :                  :Late Miocene
-  5.332:            :                 :              :Pliocene          :Early Pliocene
-    3.6:            :                 :              :                  :Late Pliocene
-  1.806:            :                 :              :Pleistocene
-0.01143:            :                 :              :Holocene
+ma:eon:era:period:epoch:epoch
+4567.17:Hadean:nil:nil:nil:nil
+3800:Archean:Eoarchean:nil:nil:nil
+3600:Archean:Paleoarchean:nil:nil:nil
+3200:Archean:Mesoarchean:nil:nil:nil
+2800:Archean:Neoarchean:nil:nil:nil
+2500:Proterozoic:Paleoproterozoic:Siderian:nil:nil
+2300:Proterozoic:Paleoproterozoic:Rhyacian:nil:nil
+2050:Proterozoic:Paleoproterozoic:Orosirian:nil:nil
+1800:Proterozoic:Paleoproterozoic:Statherian:nil:nil
+1600:Proterozoic:Mesoproterozoic:Calymmian:nil:nil
+1400:Proterozoic:Mesoproterozoic:Ectasian:nil:nil
+1200:Proterozoic:Mesoproterozoic:Stenian:nil:nil
+1000:Proterozoic:Neoproterozoic:Tonian:nil:nil
+850:Proterozoic:Neoproterozoic:Cryogenian:nil:nil
+630:Proterozoic:Neoproterozoic:Ediacaran:nil:nil
+542:Phanerozoic:Paleozoic:Cambrian:EarlyCambrian:nil
+513:Phanerozoic:Paleozoic:Cambrian:MiddleCambrian:nil
+501:Phanerozoic:Paleozoic:Cambrian:LateCambrian:nil
+488.3:Phanerozoic:Paleozoic:Ordovician:EarlyOrdovician:nil
+471.8:Phanerozoic:Paleozoic:Ordovician:MiddleOrdovician:nil
+460.9:Phanerozoic:Paleozoic:Ordovician:LateOrdovician:nil
+443.7:Phanerozoic:Paleozoic:Silurian:EarlySilurian:Llandovery
+428.2:Phanerozoic:Paleozoic:Silurian:EarlySilurian:Wenlock
+422.9:Phanerozoic:Paleozoic:Silurian:LateSilurian:Ludlow
+418.7:Phanerozoic:Paleozoic:Silurian:LateSilurian:Pridoli
+416:Phanerozoic:Paleozoic:Devonian:EarlyDevonian:nil
+397.5:Phanerozoic:Paleozoic:Devonian:MiddleDevonian:nil
+385.3:Phanerozoic:Paleozoic:Devonian:LateDevonian:nil
+359.2:Phanerozoic:Paleozoic:Carboniferous:Mississippian:EarlyMississippian
+345.3:Phanerozoic:Paleozoic:Carboniferous:Mississippian:MiddleMississippian
+326.4:Phanerozoic:Paleozoic:Carboniferous:Mississippian:LateMississippian
+318.1:Phanerozoic:Paleozoic:Carboniferous:Pennsylvanian:EarlyPennsylvanian
+311.7:Phanerozoic:Paleozoic:Carboniferous:Pennsylvanian:MiddlePennsylvanian
+306:Phanerozoic:Paleozoic:Carboniferous:Pennsylvanian:LatePennsylvanian
+299:Phanerozoic:Paleozoic:Permian:EarlyPermian:nil
+270.6:Phanerozoic:Paleozoic:Permian:MiddlePermian:nil
+260.4:Phanerozoic:Paleozoic:Permian:LatePermian:nil
+251:Phanerozoic:Mesozoic:Triassic:EarlyTriassic:nil
+245:Phanerozoic:Mesozoic:Triassic:MiddleTriassic:nil
+228:Phanerozoic:Mesozoic:Triassic:LateTriassic:nil
+199.6:Phanerozoic:Mesozoic:Jurassic:EarlyJurassic:nil
+175.6:Phanerozoic:Mesozoic:Jurassic:MiddleJurassic:nil
+161.2:Phanerozoic:Mesozoic:Jurassic:LateJurassic:nil
+145.5:Phanerozoic:Mesozoic:Cretaceous:EarlyCretaceous:nil
+99.6:Phanerozoic:Mesozoic:Cretaceous:LateCretaceous:nil
+65.5:Phanerozoic:Cenozoic:Paleogene:Paleocene:EarlyPaleocene
+61.7:Phanerozoic:Cenozoic:Paleogene:Paleocene:MiddlePaleocene
+58.7:Phanerozoic:Cenozoic:Paleogene:Paleocene:LatePaleocene
+55.8:Phanerozoic:Cenozoic:Paleogene:Eocene:EarlyEocene
+48.6:Phanerozoic:Cenozoic:Paleogene:Eocene:MiddleEocene
+37.2:Phanerozoic:Cenozoic:Paleogene:Eocene:LateEocene
+33.9:Phanerozoic:Cenozoic:Paleogene:Oligocene:EarlyOligocene
+28.4:Phanerozoic:Cenozoic:Paleogene:Oligocene:LateOligocene
+23.03:Phanerozoic:Cenozoic:Neogene:Miocene:EarlyMiocene
+15.97:Phanerozoic:Cenozoic:Neogene:Miocene:MiddleMiocene
+11.608:Phanerozoic:Cenozoic:Neogene:Miocene:LateMiocene
+5.332:Phanerozoic:Cenozoic:Neogene:Pliocene:EarlyPliocene
+3.6:Phanerozoic:Cenozoic:Neogene:Pliocene:LatePliocene
+1.806:Phanerozoic:Cenozoic:Neogene:Pleistocenei:nil
+0.01143:Phanerozoic:Cenozoic:Neogene:Holocene:nil
