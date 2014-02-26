@@ -1,0 +1,23 @@
+#!/bin/bash
+job=$2
+cd $1
+
+function git_status_string {
+  git status -s
+}
+
+function restarter {
+  curr="$(git_status_string)"
+  prev=$curr
+  while true; do
+    if [ "$prev" == "$curr" ]; then
+      sleep 1
+    else
+      sudo restart $job
+      prev=$curr
+    fi
+    curr="$(git_status_string)"
+  done
+}
+
+restarter

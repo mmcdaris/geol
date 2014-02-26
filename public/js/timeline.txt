@@ -1,0 +1,61 @@
+     ma:eon        :era             :period       :epoch            :epoch
+4567.17:Hadean     :                :             :                 :
+   3800:Archean    :Eoarchean       :             :                 :
+   3600:Archean    :Paleoarchean    :             :                 :
+   3200:Archean    :Mesoarchean     :             :                 :
+   2800:Archean    :Neoarchean      :             :                 :
+   2500:Proterozoic:Paleoproterozoic:Siderian     :                 :
+   2300:Proterozoic:Paleoproterozoic:Rhyacian     :                 :
+   2050:Proterozoic:Paleoproterozoic:Orosirian    :                 :
+   1800:Proterozoic:Paleoproterozoic:Statherian   :                 :
+   1600:Proterozoic:Mesoproterozoic :Calymmian    :                 :
+   1400:Proterozoic:Mesoproterozoic :Ectasian     :                 :
+   1200:Proterozoic:Mesoproterozoic :Stenian      :                 :
+   1000:Proterozoic:Neoproterozoic  :Tonian       :                 :
+    850:Proterozoic:Neoproterozoic  :Cryogenian   :                 :
+    630:Proterozoic:Neoproterozoic  :Ediacaran    :                 :
+    542:Phanerozoic:Paleozoic       :Cambrian     :Early Cambrian   :
+    513:Phanerozoic:Paleozoic       :Cambrian     :Middle Cambrian  :
+    501:Phanerozoic:Paleozoic       :Cambrian     :Late Cambrian    :
+  488.3:Phanerozoic:Paleozoic       :Ordovician   :Early Ordovician :
+  471.8:Phanerozoic:Paleozoic       :Ordovician   :Middle Ordovician:
+  460.9:Phanerozoic:Paleozoic       :Ordovician   :Late Ordovician  :
+  443.7:Phanerozoic:Paleozoic       :Silurian     :Early Silurian   :Llandovery
+  428.2:Phanerozoic:Paleozoic       :Silurian     :Early Silurian   :Wenlock
+  422.9:Phanerozoic:Paleozoic       :Silurian     :Late Silurian    :Ludlow
+  418.7:Phanerozoic:Paleozoic       :Silurian     :Late Silurian    :Pridoli
+    416:Phanerozoic:Paleozoic       :Devonian     :Early Devonian   :
+  397.5:Phanerozoic:Paleozoic       :Devonian     :Middle Devonian  :
+  385.3:Phanerozoic:Paleozoic       :Devonian     :Late Devonian    :
+  359.2:Phanerozoic:Paleozoic       :Carboniferous:Mississippian    :Early Mississippian
+  345.3:Phanerozoic:Paleozoic       :Carboniferous:Mississippian    :Middle Mississippian
+  326.4:Phanerozoic:Paleozoic       :Carboniferous:Mississippian    :Late Mississippian
+  318.1:Phanerozoic:Paleozoic       :Carboniferous:Pennsylvanian    :Early Pennsylvanian
+  311.7:Phanerozoic:Paleozoic       :Carboniferous:Pennsylvanian    :Middle Pennsylvanian
+    306:Phanerozoic:Paleozoic       :Carboniferous:Pennsylvanian    :Late Pennsylvanian
+    299:Phanerozoic:Paleozoic       :Permian      :Early Permian    :
+  270.6:Phanerozoic:Paleozoic       :Permian      :Middle Permian   :
+  260.4:Phanerozoic:Paleozoic       :Permian      :Late Permian     :
+    251:Phanerozoic:Mesozoic        :Triassic     :Early Triassic   :
+    245:Phanerozoic:Mesozoic        :Triassic     :Middle Triassic  :
+    228:Phanerozoic:Mesozoic        :Triassic     :Late Triassic    :
+  199.6:Phanerozoic:Mesozoic        :Jurassic     :Early Jurassic   :
+  175.6:Phanerozoic:Mesozoic        :Jurassic     :Middle Jurassic  :
+  161.2:Phanerozoic:Mesozoic        :Jurassic     :Late Jurassic    :
+  145.5:Phanerozoic:Mesozoic        :Cretaceous   :Early Cretaceous :
+   99.6:Phanerozoic:Mesozoic        :Cretaceous   :Late Cretaceous  :
+   65.5:Phanerozoic:Cenozoic        :Paleogene    :Paleocene        :Early Paleocene
+   61.7:Phanerozoic:Cenozoic        :Paleogene    :Paleocene        :Middle Paleocene
+   58.7:Phanerozoic:Cenozoic        :Paleogene    :Paleocene        :Late Paleocene
+   55.8:Phanerozoic:Cenozoic        :Paleogene    :Eocene           :Early Eocene
+   48.6:Phanerozoic:Cenozoic        :Paleogene    :Eocene           :Middle Eocene
+   37.2:Phanerozoic:Cenozoic        :Paleogene    :Eocene           :Late Eocene
+   33.9:Phanerozoic:Cenozoic        :Paleogene    :Oligocene        :Early Oligocene
+   28.4:Phanerozoic:Cenozoic        :Paleogene    :Oligocene        :Late Oligocene
+  23.03:Phanerozoic:Cenozoic        :Neogene      :Miocene          :Early Miocene
+  15.97:Phanerozoic:Cenozoic        :Neogene      :Miocene          :Middle Miocene
+ 11.608:Phanerozoic:Cenozoic        :Neogene      :Miocene          :Late Miocene
+  5.332:Phanerozoic:Cenozoic        :Neogene      :Pliocene         :Early Pliocene
+    3.6:Phanerozoic:Cenozoic        :Neogene      :Pliocene         :Late Pliocene
+  1.806:Phanerozoic:Cenozoic        :Neogene      :Pleistocenei     :
+0.01143:Phanerozoic:Cenozoic        :Neogene      :Holocene         :

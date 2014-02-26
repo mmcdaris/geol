@@ -1,0 +1,61 @@
+
+4567.17:Hadean
+   3800:Archean     :Eoarchean
+   3600:            :Paleoarchean
+   3200:            :Mesoarchean
+   2800:            :Neoarchean
+   2500:Proterozoic :Paleoproterozoic :Siderian
+   2300:            :                 :Rhyacian
+   2050:            :                 :Orosirian
+   1800:            :                 :Statherian
+   1600:            :Mesoproterozoic  :Calymmian
+   1400:            :                 :Ectasian
+   1200:            :                 :Stenian
+   1000:            :Neoproterozoic   :Tonian
+    850:            :                 :Cryogenian
+    630:            :                 :Ediacaran
+    542:Phanerozoic :Paleozoic        :Cambrian      :Early Cambrian
+    513:            :                 :              :Middle Cambrian
+    501:            :                 :              :Late Cambrian
+  488.3:            :                 :Ordovician    :Early Ordovician
+  471.8:            :                 :              :Middle Ordovician
+  460.9:            :                 :              :Late Ordovician
+  443.7:            :                 :Silurian      :Early Silurian    :Llandovery
+  428.2:            :                 :              :                  :Wenlock
+  422.9:            :                 :              :Late Silurian     :Ludlow
+  418.7:            :                 :              :                  :Pridoli
+    416:            :                 :Devonian      :Early Devonian
+  397.5:            :                 :              :Middle Devonian
+  385.3:            :                 :              :Late Devonian
+  359.2:            :                 :Carboniferous :Mississippian     :Early Mississippian
+  345.3:            :                 :              :                  :Middle Mississippian
+  326.4:            :                 :              :                  :Late Mississippian
+  318.1:            :                 :              :Pennsylvanian     :Early Pennsylvanian
+  311.7:            :                 :              :                  :Middle Pennsylvanian
+    306:            :                 :              :                  :Late Pennsylvanian
+    299:            :                 :Permian       :Early Permian
+  270.6:            :                 :              :Middle Permian
+  260.4:            :                 :              :Late Permian
+    251:            :Mesozoic         :Triassic      :Early Triassic
+    245:            :                 :              :Middle Triassic
+    228:            :                 :              :Late Triassic
+  199.6:            :                 :Jurassic      :Early Jurassic
+  175.6:            :                 :              :Middle Jurassic
+  161.2:            :                 :              :Late Jurassic
+  145.5:            :                 :Cretaceous    :Early Cretaceous
+   99.6:            :                 :              :Late Cretaceous
+   65.5:            :Cenozoic         :Paleogene     :Paleocene         :Early Paleocene
+   61.7:            :                 :              :                  :Middle Paleocene
+   58.7:            :                 :              :                  :Late Paleocene
+   55.8:            :                 :              :Eocene            :Early Eocene
+   48.6:            :                 :              :                  :Middle Eocene
+   37.2:            :                 :              :                  :Late Eocene
+   33.9:            :                 :              :Oligocene         :Early Oligocene
+   28.4:            :                 :              :                  :Late Oligocene
+  23.03:            :                 :Neogene       :Miocene           :Early Miocene
+  15.97:            :                 :              :                  :Middle Miocene
+ 11.608:            :                 :              :                  :Late Miocene
+  5.332:            :                 :              :Pliocene          :Early Pliocene
+    3.6:            :                 :              :                  :Late Pliocene
+  1.806:            :                 :              :Pleistocene
+0.01143:            :                 :              :Holocene
