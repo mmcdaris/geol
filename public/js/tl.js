@@ -5,27 +5,28 @@ bg("black");
 setup();
 draw_ages();
 view.draw();
-summon_buddy(200, 200);
+summon_buddy(200);
 
-function onResize(event) {
-  setup();
-}
-
-function summon_buddy (x, y) {
-  buddy = new Path.Circle([x, y], 70);
-  buddy.strokeWidth = 3;
-  buddy.strokeColor = "red";
-  text = new PointText([x, y]);
+function summon_buddy (y) {
+  buddy = horizontal(y);
+  buddy.strokeWidth = 1;
+  buddy.strokeColor = "black";
+  text = new PointText([200, y]);
   text.justification = 'center';
-  text.fillColor = 'white';
+  text.fillColor = 'black';
+  text.fontSize = 24;
   text.content = ma(y);
 }
 
 function onMouseMove(event) {
   //console.log(event.point);
-  buddy.position = event.point;
+  buddy.position.y = event.point.y;
   text.position = event.point;
-  text.content = ma(event.point.y);
+  text.content = ma(event.point.y + 100);
+}
+
+function onResize(event) {
+  setup();
 }
 
 function onMouseUp(event) {
@@ -52,22 +53,21 @@ function horizontals(element, index, array) {
 
 function horizontal(y) {
   var horiz = new Path();
-  horiz.strokeColor = new Color( y_to_color(y), 0.7, 0.4);
-  horiz.strokeWidth = 3;
   var start = new Point(0, y);
   horiz.moveTo(start);
   var end = new Point(view.element.width, y);
   horiz.lineTo(end);
+  return horiz;
 }
 
 function draw_ages() {
-  unit_to_boxes("supereon", 0);
-  unit_to_boxes("eon", 1);
-  unit_to_boxes("era", 2);
-  unit_to_boxes("period", 3);
-  unit_to_boxes("epoch", 4);
-  unit_to_boxes("age", 5);
-  times.forEach(horizontals);
+  unit_to_boxes("supereon", 0, "#E5F5CC");
+  unit_to_boxes("eon",      1, "#5B585A");
+  unit_to_boxes("era",      2, "#5E677A");
+  unit_to_boxes("period",   3, "#93AEA6");
+  unit_to_boxes("epoch",    4, "#DDE4B5");
+  unit_to_boxes("age",      5, "#ECF0D6");
+  //times.forEach(horizontals);
 }
 
 function find_edges(unit) {
@@ -76,7 +76,7 @@ function find_edges(unit) {
   return edges;
 }
 
-function unit_to_boxes(unit, target) {
+function unit_to_boxes(unit, target, color) {
   var width  = window.innerWidth/6;
   var left   = target*width;
   var top    = age_to_y(max_age);
@@ -86,21 +86,33 @@ function unit_to_boxes(unit, target) {
 
   for(element in edges) {
     bottom = age_to_y(edges[element]);
-	height = bottom - top;
-	console.log(element);
+    height = bottom - top;
+    console.log(element);
     var square = new Path.Rectangle([left,top,width,height])
-	if (element != null) {
-	  square.style = {
-	  fillColor: new Color(1, 0, 0),
-	  strokeColor: 'black',
-	  strokeWidth: 5 };
-      top = bottom;
-	} else {
-	  square.fillColor = "blue";
-	}
+    square.element = element;
+    square.age = edges[element];
+    if (square.element != "null") {
+      square.style = {
+        fillColor: color,
+        strokeColor: 'black',
+        strokeWidth: 2,
+        strokeJoin: 'bevel'
+      };
+        top = bottom;
+    } else {
+      square.fillColor = "black";
+    }
+    box_label(square);
   }
 }
 
+function box_label(square) {
+  var text = new PointText(square.position);
+  text.justification = 'center';
+  text.fillColor = 'black';
+  text.fontSize = 24;
+  text.content = square.element + "\n" + square.age + " Mya";
+}
 
 function age_to_y(time) {
   var y = max_height - (time/max_age * max_height);
@@ -130,6 +142,6 @@ function ma(y) {
     return (age*-1) + "Million Years After Now"
   }
   else{
-    return age + " Million Years Ago";
+    return age + " Mya";
   }
 }
